@@ -1,0 +1,36 @@
+.container{
+    background-color: blue;
+    display:grid ;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    height: 650px;
+}
+
+.item{
+    background-color: red;
+    color: pink;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'montserrat',sans-serif
+}
+
+.fries1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.fries6{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.container{
+    background-color:  green;
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr 1fr;
+    grid-gap: 10px;
+    height: 650px;
+}
