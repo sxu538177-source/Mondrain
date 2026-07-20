@@ -3,7 +3,7 @@
 <html>
     <head>
         <link rel="stylesheet" herf"style.css">
-    </head>
+    </head> 
     <body>
         <div class="blue"></div>
             <div class="item">fries 1</div>
