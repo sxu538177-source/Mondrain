@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="canvas">
+    <main class="canvas alt-layout">
       <div class="panel panel-red"></div>
       <div class="panel panel-white"></div>
       <div class="panel panel-yellow"></div>
