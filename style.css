@@ -19,6 +19,8 @@ body {
   background: #f5efe6;
   border: 24px solid #111;
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
+  padding: 24px;
+  box-sizing: border-box;
 }
 
 .panel {
