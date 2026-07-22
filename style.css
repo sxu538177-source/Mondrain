@@ -3,22 +3,26 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
+  padding: 16px;
+  box-sizing: border-box;
+  overflow: auto;
   background: #d9f2d9;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .canvas {
   width: min(92vw, 900px);
-  min-height: 760px;
+  height: min(82vh, 760px);
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-template-rows: repeat(4, minmax(110px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   background: #f5efe6;
   border: 18px solid #111;
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
 }
 
 .panel {
+  min-height: 0;
   background: #f8f3ea;
   border: 3px solid #111;
 }
