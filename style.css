@@ -9,6 +9,7 @@ body {
 
 .canvas {
   width: min(92vw, 900px);
+  height: 650px;
   aspect-ratio: 4 / 3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
