@@ -8,12 +8,12 @@ body {
 }
 
 .canvas {
-  width: min(92vw, 860px);
+  width: min(92vw, 900px);
   aspect-ratio: 4 / 3;
   display: grid;
-  grid-template-columns: 1.4fr 0.9fr 1.1fr;
-  grid-template-rows: 1.2fr 0.9fr 0.8fr;
-  gap: 14px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 12px;
   padding: 14px;
   background: #f5efe6;
   border: 18px solid #111;
@@ -22,59 +22,21 @@ body {
 
 .panel {
   background: #f8f3ea;
+  border: 3px solid #111;
 }
 
 .panel-red {
   background: #bf1e2e;
-  grid-row: 1 / span 2;
 }
 
 .panel-yellow {
   background: #f3c23a;
-  grid-column: 2 / span 2;
 }
 
 .panel-blue {
   background: #1f4fa3;
-  grid-row: 2 / span 2;
-  grid-column: 3 / 4;
-}
-
-.panel-large {
-  grid-column: 2 / 3;
-  grid-row: 2 / 4;
 }
 
 .panel-black {
   background: #111;
-}
-
-.alt-layout {
-  grid-template-columns: 1.2fr 0.8fr 1fr;
-  grid-template-rows: 1fr 0.9fr 0.9fr;
-}
-
-.alt-layout .panel-yellow {
-  grid-column: 1 / span 2;
-  grid-row: 1 / 2;
-}
-
-.alt-layout .panel-black {
-  grid-column: 3 / 4;
-  grid-row: 1 / span 2;
-}
-
-.alt-layout .panel-tall {
-  grid-column: 2 / 3;
-  grid-row: 2 / 4;
-}
-
-.alt-layout .panel-blue {
-  grid-column: 1 / 2;
-  grid-row: 2 / 4;
-}
-
-.alt-layout .panel-red {
-  grid-column: 3 / 4;
-  grid-row: 3 / 4;
 }

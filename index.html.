@@ -9,11 +9,16 @@
   <body>
     <main class="canvas">
       <div class="panel panel-red"></div>
-      <div class="panel panel-white panel-large"></div>
+      <div class="panel panel-white"></div>
       <div class="panel panel-yellow"></div>
       <div class="panel panel-blue"></div>
       <div class="panel panel-white"></div>
       <div class="panel panel-black"></div>
+      <div class="panel panel-white"></div>
+      <div class="panel panel-red"></div>
+      <div class="panel panel-white"></div>
+      <div class="panel panel-yellow"></div>
+      <div class="panel panel-blue"></div>
       <div class="panel panel-white"></div>
     </main>
   </body>
