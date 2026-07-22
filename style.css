@@ -40,3 +40,28 @@ body {
 .panel-black {
   background: #111;
 }
+
+.alt-layout {
+  grid-template-columns: 1.2fr 0.8fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.alt-layout .panel-yellow {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.alt-layout .panel-black {
+  grid-column: 3 / 4;
+  grid-row: 1 / span 3;
+}
+
+.alt-layout .panel-blue {
+  grid-column: 1 / 2;
+  grid-row: 3 / span 2;
+}
+
+.alt-layout .panel-red {
+  grid-column: 2 / 4;
+  grid-row: 3 / span 2;
+}
