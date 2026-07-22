@@ -11,13 +11,13 @@ body {
 }
 
 .canvas {
-  width: min(92vw, 900px);
-  height: min(82vh, 760px);
+  width: min(94vw, 960px);
+  height: min(86vh, 820px);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   background: #f5efe6;
-  border: 18px solid #111;
+  border: 24px solid #111;
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
 }
 
